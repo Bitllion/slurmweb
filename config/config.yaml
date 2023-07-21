@@ -1,0 +1,15 @@
+sacct_raw_data_path: /opt/slurmweb/data/sacct_raw
+# 队列信息 每个队列的名称、gpu和cpu价格
+part_info:
+    - part: 
+        name: hyper
+        gpu_price: 25
+        cpu_price: 5
+    - part: 
+        name: super
+        gpu_price: 20
+        cpu_price: 3
+    - part: 
+        name: 88cores
+        gpu_price: 0
+        cpu_price: 1

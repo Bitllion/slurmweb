@@ -1,0 +1,17 @@
+{
+    "code-runner.executorMap": {
+        "python": "export PYTHONIOENCODING=utf-8 && /usr/bin/python3 -u"
+    },
+    "code-runner.defaultLanguage": "/usr/bin/python3",
+    // "code-runner.runInTerminal": true,
+    "code-runner.fileDirectoryAsCwd": true,
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "files.associations": {
+        "iostream": "cpp"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
+      }
+    
+}
